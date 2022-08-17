@@ -1,0 +1,62 @@
+body.dark-theme main .flag{
+    display: flex;
+    background: none;
+}
+
+body.dark-theme .border-list li{
+    background: var( --dark-blue-elements);
+}
+.flag img{
+    max-width: 500px;
+}
+
+.country{
+    flex-wrap: nowrap;
+    gap: 100px;
+}
+
+.country img{
+    width: 640px;
+}
+.country-info{
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+.country-data{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 700px;
+}
+
+.country-data h3{
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+
+
+.country-informations{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.borders{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.border-list{
+    display: flex;  
+    flex-wrap: wrap;
+}
+
+.border-list li{
+    padding-inline: 20px;
+    border: none;
+    border: 3px solid rgb(0 0 0 / 35%); 
+    margin: 10px;
+    display: block;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
