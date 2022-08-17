@@ -1,0 +1,69 @@
+@media (max-width: 768px) {
+
+    header h1{
+        font-size: 16px;
+        padding: 10px;
+    }
+    .input-search{
+        width: initial;
+    }
+
+    .inputs #form {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .inputs #flag-search, .inputs #form #regions{
+        width: 100%;
+    }
+
+    .flags, .country{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .country{
+        flex-direction: column;
+        flex-wrap: initial;
+        align-items: initial;
+        gap: 30px;
+    }
+
+    .button-arrow{
+        padding: initial;
+        width: 30%;
+        padding-block: 10px;
+
+    }
+    .country-data{
+        width: initial;
+        padding: initial;
+        font-size: 17px;
+    }
+    .country img{
+        width: 100%;
+        height: auto;
+    }
+
+    .country-info{
+        flex-direction: column;
+        gap: 50px;
+    }
+    
+    .borders{
+        flex-direction: column;
+        align-items: initial;
+        gap: 10px;
+    }
+
+    .border-list{
+        gap: 10px;
+    }
+
+    .border-list li{
+        margin: 0;
+        border: none;
+         
+    }
+
+}

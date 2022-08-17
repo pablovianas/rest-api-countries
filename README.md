@@ -22,7 +22,7 @@ Users should be able to:
 
 ### Desktop detailed page (dark mode)
 
-![](./design/)
+![](./design/desktop-detailed-country-info-page.png)
 
 
 # Screenshots Light Mode
@@ -38,9 +38,26 @@ Users should be able to:
 
 
 
-# Screenshots Mobile
+# Screenshots Mobile Dark Mode
 
-**To be added**
+### Mobile all countries (dark mode)
+
+![](./design/mobile-dark-theme.png)
+
+### Mobile all countries (dark mode)
+
+![](./design/mobile-detailed-dark.png)
+
+
+# Screenshots Mobile Light Mode
+
+### Mobile all countries (light mode)
+
+![](./design/mobile-light-theme.png)
+
+### Mobile all countries (light mode)
+
+![](./design/mobile-detailed-light.png)
 
 # Built with
 

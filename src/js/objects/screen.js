@@ -27,7 +27,6 @@ const screen = {
     renderAllFlags(flags){
         let flagsList = ''
         flags.forEach(flag => {
-            console.log(flags.length)
             flagsList += `<div class="flag">
                                             <a href="./src/pages/country.html?name=${flag.name.common}">
                                                 <img src="${flag.flags.png}" alt="flag picture"/>
@@ -48,7 +47,6 @@ const screen = {
     },
     country: document.querySelector('.country'),
     renderCountry(flag){
-        console.log(flag[0])
         let countrySelected = ''
         let borders = ''
 
